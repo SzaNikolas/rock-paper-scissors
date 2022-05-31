@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+
+.title {
+    
+    font-size: 80px;
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    background: yellow;
+    color: black;
+    display: flex;
+    margin: 50px 100px 50px 100px;
+    padding: 25px 25px 25px 25px;
+}
+
+.score {
+  font-size: 40px;
+  color: yellow;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.result {
+  font-size: 40px;
+  color: yellow;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  font-size: 100px;
+  background: black;
+  border-color: yellow;
+  border-width: 10px;
+  display: flex;
+  margin: 40px;
+  padding: 25px;
+  border-radius: 50%;
+}
+
+.allBtn {
+  display: flex;
+  align-self: center;
+  margin: 141px 0px 0px 0px;
+}
+
+
